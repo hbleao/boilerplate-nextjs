@@ -12,7 +12,7 @@ describe('Main Component', () => {
     )
 
     expect(
-      screen.getByRole('heading', { name: /react avançadoss/i })
+      screen.getByRole('heading', { name: /react avançado/i })
     ).toBeInTheDocument()
 
     expect(container.firstChild).toMatchSnapshot()
